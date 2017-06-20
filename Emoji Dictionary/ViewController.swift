@@ -50,6 +50,43 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func makeEmojiArray() -> [Emoji]{
+        let emoji1 = Emoji()
+        emoji1.icon = "😎"
+        emoji1.birthyear = 2010
+        emoji1.category = "Smiley"
+        emoji1.definition = "This guy is cool."
+        
+        let emoji1 = Emoji()
+        emoji1.icon = "😕"
+        emoji1.birthyear = 2005
+        emoji1.category = "Smiley"
+        emoji1.definition = "This guy is awkward."
+        
+        let emoji1 = Emoji()
+        emoji1.icon = "😡"
+        emoji1.birthyear = 2002
+        emoji1.category = "Smiley"
+        emoji1.definition = "This guy is angry."
+        
+        let emoji1 = Emoji()
+        emoji1.icon = "😱"
+        emoji1.birthyear = 2017
+        emoji1.category = "Smiley"
+        emoji1.definition = "This guy is shocked."
+        
+        let emoji1 = Emoji()
+        emoji1.icon = "👹"
+        emoji1.birthyear = 2016
+        emoji1.category = "Smiley"
+        emoji1.definition = "This guy is the devil."
+        
+        let emoji1 = Emoji()
+        emoji1.icon = "👽"
+        emoji1.birthyear = 2014
+        emoji1.category = "Smiley"
+        emoji1.definition = "This guy is an alien."
+    }
 
 
 }

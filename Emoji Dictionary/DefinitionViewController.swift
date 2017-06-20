@@ -10,6 +10,8 @@ import UIKit
 
 class DefinitionViewController: UIViewController {
     
+    @IBOutlet weak var birthYear: UILabel!
+    @IBOutlet weak var category: UILabel!
     var emoji = "NO EMOJI"
 
     override func viewDidLoad() {
@@ -19,10 +21,14 @@ class DefinitionViewController: UIViewController {
         
         if emoji == "😎" {
             definitionLabel.text = "This guy is cool."
+            category.text = "Category: Smiley"
+            birthYear.text = "BirthYear: 2010"
         }
         
         if emoji == "😕" {
             definitionLabel.text = "This is awkward."
+            category.text = "Category: Smiley"
+            birthYear.text = "BirthYear: 2014"
         }
         if emoji == "😎" {
             definitionLabel.text = "This guy is cool."
